@@ -36,3 +36,5 @@ schedule.scheduleJob(ruleJantar, () => {
 });
 
 console.log('Servidor iniciado às ' + new Date(Date.now()).toLocaleString());
+
+console.log("BOT_TOKEN:"+process.env.BOT_TOKEN)
